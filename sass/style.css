@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+}
+form input:nth-child(8), form input:nth-child(6), form input:nth-child(5), form input:nth-child(4), form input:nth-child(3), form input:nth-child(2), form input:nth-child(1) {
+  width: 400px;
+  display: block;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+form input:nth-child(1) {
+  border-bottom: 2px solid silver;
+}
+form input:nth-child(2) {
+  border-bottom: 2px solid silver;
+}
+form input:nth-child(3) {
+  border-bottom: 2px solid green;
+}
+form input:nth-child(4) {
+  border-bottom: 2px solid green;
+}
+form input:nth-child(5) {
+  border-bottom: 2px solid grey;
+}
+form input:nth-child(6) {
+  border-bottom: 2px solid red;
+}
+form input:nth-child(8) {
+  border-bottom: 2px dotted silver;
+}
+form .box {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+form .box p {
+  color: red;
+}
+form .box i {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
